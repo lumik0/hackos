@@ -57,7 +57,7 @@
 	unknown = "Tuntematon",
 	calculatingSize = "lasketaan…",
 	filesWillBeRemovedPermanently = "tiedosto(t) poistetaan pysyvästi",
-	fileDeletingFailure = "Tiedoston poistaminen epäonnistui",
+	fileDeletingFailure = "Tiedoston poistaHackn epäonnistui",
 	
 	properties = "Ominaisuudet",
 	newFolderFromChosen = "Uusi kansio valinnasta",
@@ -66,7 +66,7 @@
 	newFile = "Tiedosto",
 	newFileFromURL = "Tiedosto verkosta",
 	newImage = "Kuva",
-	newApplication = "MineOS-sovellus",
+	newApplication = "HackOS-sovellus",
 	paste = "Liitä",
 	copy = "Kopioi",
 	cut = "Leikkaa",

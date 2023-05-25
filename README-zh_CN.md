@@ -22,7 +22,7 @@ MineOS是一个拥有GUI的操作系统，运行在Minecraft模组Open Computers
 
 最简单的方式是使用默认的**wget**脚本。插入一个OpenOS的软盘到计算机当中，再插入一个Internet卡，启动电脑并在控制台中输入下列命令以安装MineOS：
 
-	wget -f https://raw.githubusercontent.com/IgorTimofeev/MineOS/master/Installer/BIOS.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot
+	wget -f https://raw.githubusercontent.com/lumik0/hackos/master/Installer/BIOS.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot
 
 过一会儿，一个制作优良的系统安装程序将会被启动。
 安装程序将提示你选择你的首选语言、选择并格式化引导卷、创建用户配置文件并修改一些设置。

@@ -17,7 +17,7 @@ local repositoryURL = "https://raw.githubusercontent.com/lumik0/hackos/master/"
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
-local installerPath = "/MineOS installer/"
+local installerPath = "/HackOS installer/"
 local installerPicturesPath = installerPath .. "Installer/Pictures/"
 local OSPath = "/"
 
@@ -54,7 +54,7 @@ local function status(text, needWait)
 end
 
 local function progress(value)
-	local width = 26
+	local width = 36
 	local x, y, part = centrize(width), title(), math.ceil(width * value)
 	
 	component.invoke(GPUAddress, "setForeground", 0x878787)
@@ -231,7 +231,7 @@ window:addChild(GUI.panel(1, 1, window.width, window.height, 0xE1E1E1))
 
 -- Top menu
 local menu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0xF0F0F0, 0x787878, 0x3366CC, 0xE1E1E1))
-local installerMenu = menu:addContextMenuItem("MineOS", 0x2D2D2D)
+local installerMenu = menu:addContextMenuItem("HackOS", 0x2D2D2D)
 installerMenu:addItem("Shutdown").onTouch = function()
 	computer.shutdown()
 end

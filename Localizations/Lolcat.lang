@@ -66,7 +66,7 @@
 	newFile = "Fiel",
 	newFileFromURL = "Fiel frum URL",
 	newImage = "Imaeg",
-	newApplication = "MineOS applicashun",
+	newApplication = "HackOS applicashun",
 	paste = "Paset",
 	copy = "Copy",
 	cut = "Cut",

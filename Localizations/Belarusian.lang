@@ -66,7 +66,7 @@
 	newFile = "Файл",
 	newFileFromURL = "Файл па URL",
 	newImage = "Малюнак",
-	newApplication = "Прыкладанне MineOS",
+	newApplication = "Прыкладанне HackOS",
 	paste = "Уставіць",
 	copy = "Капіяваць",
 	cut = "Выразаць",
