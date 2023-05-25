@@ -17,7 +17,7 @@ paths.system.versions = "/Versions.cfg"
 
 paths.system.applicationSample = paths.system.applications .. "Sample.app/"
 paths.system.applicationAppMarket = paths.system.applications .. "App Market.app/Main.lua"
-paths.system.applicationMineCodeIDE = paths.system.applications .. "MineCode IDE.app/Main.lua"
+paths.system.applicationHackCodeIDE = paths.system.applications .. "HackCode IDE.app/Main.lua"
 paths.system.applicationFinder = paths.system.applications .. "Finder.app/Main.lua"
 paths.system.applicationPictureEdit = paths.system.applications .. "Picture Edit.app/Main.lua"
 paths.system.applicationSettings = paths.system.applications .. "Settings.app/Main.lua"
