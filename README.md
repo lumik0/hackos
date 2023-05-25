@@ -1,0 +1,2 @@
+# hackos
+MineOS(opencomputers)
