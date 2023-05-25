@@ -285,8 +285,8 @@ local function addStageButton(text)
 	return button
 end
 
-local prevButton = addStageButton("Next")
-local nextButton = addStageButton("Back")
+local prevButton = addStageButton("Back")
+local nextButton = addStageButton("Next")
 
 local localization
 local stage = 1
